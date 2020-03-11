@@ -1,6 +1,7 @@
 import pandas as pd
 from download import download
 from biketrauma.io import url_db, path_target
+from biketrauma import __version__
 
 
 class Load_db:
